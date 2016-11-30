@@ -29,15 +29,22 @@
   fill: #fff;
   width: 75px;
   align-items: flex-end;
+  margin-bottom: 15px;
 }
 
 .created-by {
   font-size: 0.8rem;
   color: #fff;
   letter-spacing: 2px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .cta {
   color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
+}
+.cta:hover{
+  color: #f36;
 }
